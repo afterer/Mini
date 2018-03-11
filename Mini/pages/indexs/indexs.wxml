@@ -1,0 +1,16 @@
+<!--学生首页-->
+<view class="container">
+	    <canvas canvas-id="ringCanvas" class="canvas" bindtouchstart="touchHandler"></canvas>
+	    
+	    <button type="primary" bindtap="updateData" style="margin-top:30rpx" class="updatebtn">更新</button>
+	<view class="swiper-tab">  
+	      <view class="swiper-tab-list" bindtap="Home" style="border-right:1px solid #ccc;">  
+	        <view class="swiper-tab-img"><image class="img" src="/images/home.png"></image></view>  
+	        <view class="totext">首页</view>  
+	      </view>  
+	      <view class="swiper-tab-list" bindtap="User">  
+	         <view class="swiper-tab-img"><image class="img" src="/images/user1.png"></image></view>  
+	        <view class="totext">个人</view>  
+	      </view> 
+	</view> 
+</view>

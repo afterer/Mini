@@ -1,0 +1,33 @@
+<!--学生 申请记录-->
+<view class="container">
+    <view class="mui-card">
+	   	<view class="mui-card-header">
+	   	  申请通过<image style="width: 28px; height:28px; background-color: #fff;" src="/images/right.png"></image>
+	   	</view>
+			<view class="mui-card-content">
+				<view class="mui-card-content-inner">
+					<text>
+					申请时长：24小时\n
+					申请理由：老子就是任性，不想读书了\n
+					审批时间：2017年02月15号 09:12
+					</text>
+				</view>
+			</view>
+		<view class="mui-card-footer">申请时间：2017年02月01日</view>
+	</view>
+	<view class="mui-card">
+	   	<view class="mui-card-header">
+	   	申请失败<image style="width: 28px; height:28px; background-color: #fff;" src="/images/error.png"></image>
+	   	</view>
+			<view class="mui-card-content">
+				<view class="mui-card-content-inner">
+					<text>
+					申请时长：16小时\n
+					申请理由：我想去浪一浪\n
+					审批时间：2017年02月08号 10:11
+					</text>
+				</view>
+			</view>
+		<view class="mui-card-footer">申请时间：2017年04月14日</view>
+	</view>
+</view>

@@ -1,0 +1,94 @@
+<!--学生 申请页面-->
+<view class="mcontainer">
+    <view class="item">
+        <image src="/images/2.jpg" class="image"/>
+    </view>
+
+    <view class="item">
+       <view class="login-item">
+            <view class="login-item-info">姓名</view>
+            <view><input bindinput="usernameInput" /></view>
+       </view>
+       <view class="login-item">
+            <view class="login-item-info">学号</view>
+            <view><input bindinput="numberInput" /></view>
+       </view>
+       <view class="login-item">
+            <view class="login-item-info">联系电话</view>
+            <view><input bindinput="phoneInput" type="number"/></view>
+       </view>
+       <view class="login-item">
+            <view class="login-item-info">担保人</view>
+            <view><input bindinput="sponsorInput" placeholder="建议填写家人"/></view>
+       </view>
+       <view class="login-item">
+            <view class="login-item-info">该人电话</view>
+            <view><input bindinput="sphoneInput" type="number"/></view>
+       </view>
+       <view class="login-item">
+            <view class="login-item-info">申请日期</view>
+            <view>
+               <picker mode="date" value="{{applydate}}" start="2018-09-01" end="2020-09-01" bindchange="bindDateChange">
+                <view class="picker">
+                  生效日期: {{applydate}}
+                </view>
+              </picker>
+            </view>
+       </view>
+       <view class="login-item">
+            <view class="login-item-info">申请时间</view>
+            <view>
+               <picker mode="time" value="{{applytime}}" start="00:00" end="24:00" bindchange="bindTimeChange">
+                  <view class="picker">
+                    生效时间: {{applytime}}
+                  </view>
+                </picker>
+            </view>
+       </view>
+       <view class="login-item">
+            <view class="login-item-info">申请时长</view>
+            <view><input bindinput="lengthInput" type="number" placeholder="单位小时"/></view>
+       </view>
+       <view class="login-item">
+            <view class="login-item-info">申请原因</view>
+            <view><textarea placeholder="请填写请假原因" auto-focus  class="ask" bindinput="applyInput"/></view>
+       </view>
+       <view class="login-item bottom">
+            <button class="login-btn" bindtap="applyBtnClick">申请</button>
+       </view>
+          <view class="payPass" wx:if="{{pay}}">
+            <view class="pas-title">
+              <text>请输入密码</text>
+            </view>
+            <view class="pas-num">
+              <text>请假申请</text>
+            </view>
+            <view class="pas-box">
+              <view class="box-six">
+              <input class="pas-input" type="digit" maxlength="6" focus="false" bindinput="bindHideKeyboard"></input>
+              <view class="six">
+                <text class="i {{len==0?'active':''}}">
+                <text class="b" wx:if="{{len>0}}"></text>
+                </text>
+                <text class="i {{len==1?'active':''}}">
+                <text class="b" wx:if="{{len>1}}"></text>
+                </text>
+                <text class="i {{len==2?'active':''}}">
+                <text class="b" wx:if="{{len>2}}"></text>
+                </text>
+                <text class="i {{len==3?'active':''}}">
+                <text class="b" wx:if="{{len>3}}"></text>
+                </text>
+                <text class="i {{len==4?'active':''}}">
+                <text class="b" wx:if="{{len>4}}"></text>
+                </text>
+                <text class="i {{len==5?'active':''}}">
+                <text class="b" wx:if="{{len>5}}"></text>
+                </text>
+              </view>
+              </view>
+            </view>
+            </view>
+          <view class="paybg" wx:if="{{pay}}"></view>
+    </view>
+</view>

@@ -1,0 +1,17 @@
+<!--/*密码设置*/-->
+<view class="container">
+   <view class="item">
+       <view class="login-item">
+            <view class="login-item-info">密码</view>
+            <view><input type="password" bindinput="passwdInput" maxlength="6" placeholder="六位数字" class="passwd"/></view>
+       </view>
+       <view class="login-item">
+            <view class="login-item-info">密码确认</view>
+            <view><input type="password" bindinput="repasswdInput" maxlength="6" placeholder="六位数字" class="passwd"/></view>
+       </view>
+       
+       <view class="login-item bottom">
+            <button class="login-btn" bindtap="setBtnClick" type="primary" size="mini">设置</button>
+       </view>
+   </view>
+</view>

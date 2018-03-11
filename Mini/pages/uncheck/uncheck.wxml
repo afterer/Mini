@@ -1,0 +1,44 @@
+<!--uncheck.wxml 教工 未审批--> 
+<view class="container">
+  <!--head-->
+  <navigator class="theblock" url="/pages/detail/detail">
+  <view class="toblock">
+       <view class="left">
+         <image src="/images/home.png" class="good-img" />
+       </view>
+       <view class="right">
+         <view class="line-first"><text>张三</text></view>
+         <view class="line-second"><text>学号：150201102013</text></view>
+         <view class="line-third"><text>申请时间：2017年03月12日</text></view>
+       </view>
+       <view class="right-img"><image src="/images/shoot.png"  class="shoot-img"/></view>
+	</view>
+  </navigator>
+  <navigator class="theblock" url="/pages/detail/detail">
+  <view class="toblock">
+       <view class="left">
+         <image src="/images/home.png" class="good-img" />
+       </view>
+       <view class="right">
+         <view class="line-first"><text>李四</text></view>
+         <view class="line-second"><text>学号：150201102014</text></view>
+         <view class="line-third"><text>申请时间：2017年03月11日</text></view>
+       </view>
+       <view class="right-img"><image src="/images/shoot.png"  class="shoot-img"/></view>
+	</view>
+  </navigator>
+  <navigator class="theblock" url="/pages/detail/detail">
+  <view class="toblock">
+       <view class="left">
+         <image src="/images/home.png" class="good-img" />
+       </view>
+       <view class="right">
+         <view class="line-first"><text>王五</text></view>
+         <view class="line-second"><text>学号：150201102016</text></view>
+         <view class="line-third"><text>申请时间：2017年03月10日</text></view>
+       </view>
+       <view class="right-img"><image src="/images/shoot.png"  class="shoot-img"/></view>
+	</view>
+  </navigator>
+  <!--list-->
+</view>

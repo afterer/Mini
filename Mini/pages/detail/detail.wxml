@@ -1,0 +1,21 @@
+<!--教工 学生申请信息-->
+<view class="container">
+  <view class="list">
+     <view class="line"><text class="tleft">姓名</text><text class="tright">张三</text></view>
+     <view class="line"><text class="tleft">性别</text><text class="tright">男</text></view>
+     <view class="line"><text class="tleft">学号</text><text class="tright">150201102019</text></view>
+     <view class="line"><text class="tleft">学院</text><text class="tright">计算机学院</text></view>
+     <view class="line"><text class="tleft">专业班级</text><text class="tright">软件工程2班</text></view>
+     <view class="line"><text class="tleft">请假时长</text><text class="tright">20小时</text></view>
+     <view class="line"><text class="tleft">申请时间</text><text class="tright">2018年01月02日</text></view>
+     <view class="line"><text class="tleft">申请理由</text><text class="tright">老子就是任性，没理由请假</text></view>
+  </view>
+  <view class="remarks">
+      <label>批语：</label><input type="text" placeholder="请输入批语，可以省略" auto-focus class="remarksInput" bindinput="remarksInput"/>
+  </view>
+  <view class="btn">
+    <button type="primary" size="mini" class="tobtn" bindtap="agree"> 同意 </button> 
+    <button type="warn" size="mini" class="tobtn" bindtap="disagree"> 否定 </button> 
+  </view>
+
+</view>

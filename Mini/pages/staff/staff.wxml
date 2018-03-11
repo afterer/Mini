@@ -1,0 +1,44 @@
+<!--教工个人中心-->
+<view class="container">
+  <view class="userinfo">
+    <image class="userinfo-avatar" src="/images/name.png" background-size="cover" />
+    <text class="userinfo-nickname">张小三</text>
+    <view class="tonav"></view>
+  </view>
+  
+  <view class="person-list">
+    <view class="list-item" bindtap="userdata">
+      <image class="item-image" src="/images/name.png"></image>
+      <text class="item-text">我的资料</text>
+    </view>
+    <view class="person-line"></view>
+
+    <view class="list-item" bindtap="timetable">
+      <image class="item-image" src="/images/course.png"></image>
+      <text class="item-text">我的课表</text>
+    </view>
+    <view class="person-line"></view>
+
+    <view class="list-item" bindtap="record">
+      <image class="item-image" src="/images/history.png"></image>
+      <text class="item-text">记录</text>
+    </view>
+    <view class="person-line"></view>
+    
+    <view class="list-item" bindtap="toast">
+      <image class="item-image" src="/images/more.png"></image>
+      <text class="item-text">尚未开放</text>
+    </view>
+  </view>
+  <view class="separate"></view>
+  <view class="swiper-tab">  
+      <view class="swiper-tab-list" bindtap="Home" style="border-right:1px solid #ccc;">  
+        <view class="swiper-tab-img"><image class="img" src="/images/home1.png"></image></view>  
+        <view class="totext">首页</view>  
+      </view>  
+      <view class="swiper-tab-list" bindtap="User">  
+         <view class="swiper-tab-img"><image class="img" src="/images/user.png"></image></view>  
+        <view class="totext">个人</view>  
+      </view> 
+    </view>
+</view>

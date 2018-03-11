@@ -1,0 +1,27 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/indexs/indexs",
+    "pages/login/login",
+    "pages/apply/apply",
+    "pages/passwd/passwd",
+    "pages/info/info",
+    "pages/record/record",
+    "pages/detail/detail",
+    "pages/set/set", 
+    "pages/checked/checked",
+    "pages/uncheck/uncheck",
+    "pages/userinfo/userinfo",   
+    "pages/staff/staff",
+    "pages/student/student",
+    "pages/worker/worker",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+
+}

@@ -1,0 +1,29 @@
+<!--info.wxml 教工 消息-->
+<view class="container">
+   <view class="list">
+	   <view class="title-top">报告老师！我请假</view>
+	   <view class="content">
+	     <view class="line"><text class="tleft">姓名：</text><text class="tright">张三</text></view>
+	     <view class="line"><text class="tleft">性别：</text><text class="tright">男</text></view>
+	     <view class="line"><text class="tleft">学号：</text><text class="tright">150201102019</text></view>
+	     <view class="line"><text class="tleft">专业班级：</text><text class="tright">软件工程2班</text></view>
+	     <view class="line"><text class="tleft">请假课程：</text><text class="tright">计算机组成原理</text></view>
+	     <view class="line"><text class="tleft">请假时间：</text><text class="tright">2018年02月03日 07:30</text></view>
+	     <view class="line"><text class="tleft">请假理由：</text><text class="tright">没事就喜欢请假，因为我任性</text></view>
+	  </view>
+	  <view class="title-bottom"><image src="/images/right.png" class="img"/><text class="bottom-bar">辅导员已通过</text></view>
+	</view>
+	<view class="list">
+	   <view class="title-top">报告老师！我请假</view>
+	   <view class="content">
+	     <view class="line"><text class="tleft">姓名：</text><text class="tright">王五</text></view>
+	     <view class="line"><text class="tleft">性别：</text><text class="tright">女</text></view>
+	     <view class="line"><text class="tleft">学号：</text><text class="tright">150201102022</text></view>
+	     <view class="line"><text class="tleft">专业班级：</text><text class="tright">会计1班</text></view>
+	     <view class="line"><text class="tleft">请假课程：</text><text class="tright">经济学</text></view>
+	     <view class="line"><text class="tleft">请假时间：</text><text class="tright">2018年02月04日 08:30</text></view>
+	     <view class="line"><text class="tleft">请假理由：</text><text class="tright">奴家累了</text></view>
+	   </view>
+		<view class="title-bottom"><image src="/images/right.png" class="img"/><text class="bottom-bar">辅导员已通过</text></view>
+	</view>
+</view>

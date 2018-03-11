@@ -1,0 +1,48 @@
+<!--教工 已审批-->
+<view class="container">
+  <view class="list">
+    <view class="top">
+       <text class="name">张三</text>
+       <text class="number">学号：150201102013</text>
+       <text class="toclass">专业班级：计算科学与技术1班</text>
+       <text class="toclass">请假时长：48小时</text>
+       <text class="toclass">申请时间：2017年02月12日</text>
+       <text class="toclass">审批时间：2017年02月13日 15:30</text>
+       <view class="section">申请理由：<textarea bindblur="bindTextAreaBlur" auto-height placeholder="感冒，头痛，发烧，需要回家看医生吃药" /></view>
+    </view>
+    <view class="bottom">
+      <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="primary"> 已批</button>
+    </view>
+  </view>
+  <view class="list">
+    <view class="top">
+       <text class="name">李四</text>
+       <text class="number">学号：150201102017</text>
+       <text class="toclass">专业班级：软件工程2班</text>
+       <text class="toclass">请假时长：24小时</text>
+       <text class="toclass">申请时间：2017年02月12日</text>
+       <text class="toclass">审批时间：2017年02月13日 16:30</text>
+       <view class="section">申请理由：<textarea bindblur="bindTextAreaBlur" auto-height placeholder="陪家人旅游，老子就是孝顺" /></view>
+    </view>
+    <view class="bottom">
+      <button type="default" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="default" hover-class="other-button-hover"> 不批 </button>
+    </view>
+  </view>
+  <view class="list">
+    <view class="top">
+       <text class="name">王五</text>
+       <text class="number">学号：150201102018</text>
+       <text class="toclass">专业班级：网络工程1班</text>
+       <text class="toclass">请假时长：16小时</text>
+       <text class="toclass">申请时间：2017年02月12日</text>
+       <text class="toclass">审批时间：2017年02月13日 08:30</text>
+       <view class="section">申请理由：<textarea bindblur="bindTextAreaBlur" auto-height placeholder="感冒，头痛，发烧，需要回家看医生吃药" /></view>
+    </view>
+    <view class="bottom">
+      <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="primary"> 已批</button>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,225 @@
+.mcontainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+} 
+
+.item{
+    flex-grow:1;
+    height: 30%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 96%;
+    padding: 0 2%;
+}
+
+.image{
+    width: 95%;
+    height: 250rpx;  
+}
+
+.login-item{
+    width: 90%;
+    margin-top: 15rpx;
+    border-bottom: 1px solid #eee;
+    flex-grow:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 0rpx;
+    font-size:15px;
+}
+
+ .bottom{
+     border-bottom: 0px;
+}
+
+.login-item-info{
+    font-size: 15px;
+    color: #000;
+    padding-bottom: 10rpx;
+}
+
+.login-pwd{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    align-items: center;
+  
+}
+
+.login-pwd text{
+    height: 100%;
+    font-size: 14px;
+    color: #888;
+    display: flex;
+     
+}
+.login-btn{
+    width: 80%;
+    color: white;
+    background-color: green;
+    border-radius: 0;
+    font-size: 14px;
+
+}
+
+.login-btn:hover{
+    width: 80%;
+    color: white;
+    border-radius: 0;
+
+}
+
+.bottom-info{
+
+}
+
+.wechat-icon{
+    margin-top: 30px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid seagreen;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.wechat-icon image{
+    width: 30px;
+    height: 30px;
+}
+.picker{
+    font-size:14px;
+    color:#888;
+}
+.ask{
+    width:100%;
+    height:70px;
+    border:1px solid #eee;
+    font-size:12px;
+}
+.paybg {
+  background: rgba(0, 0, 0, 0.5) !important;
+  background: #000;
+  display: block;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+.payPass {
+  background: #fff;
+  border-radius: 12rpx;
+  display: block;
+  height: 312rpx;
+  left: 7%;
+  margin-top: -160rpx;
+  overflow: hidden;
+  position: fixed;
+  top: 50%;
+  width: 86%;
+  z-index: 100;
+}
+
+.pas-title {
+  color: #333;
+  font-size: 32rpx;
+  font-weight: normal;
+  height: 92rpx;
+  line-height: 92rpx;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.pas-title:after {
+  background: #DEDEDE;
+  bottom: 0;
+  content: '';
+  height: 1rpx;
+  left: 24rpx;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  width: 90%;
+}
+
+.pas-num {
+  color: #DD2A2A;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30rpx;
+  line-height: 90rpx;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  text-align: center;
+  width: 100%;
+}
+
+
+.pas-box {
+  display: block;
+  height: 72rpx;
+  overflow: hidden;
+  width: 100%;
+}
+
+.box-six {
+  display: block;
+  height: 72rpx;
+  overflow: hidden;
+  width: 100%;
+}
+
+.six {
+  border-bottom: 1rpx solid #ddd;
+  border-radius: 6rpx;
+  border-right: 1rpx solid #ddd;
+  border-top: 1rpx solid #ddd;
+  height: 68rpx;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  width: 432rpx;
+}
+.i {
+  border-left: 1rpx solid #ddd;
+  display: block;
+  float: left;
+  height: 68rpx;
+  padding: 10rpx 0 0 -4rpx;
+  width: 70rpx;
+}
+
+.i.active { /*background: url() no-repeat center center; */}
+
+.b {
+  /*background: url() no-repeat center center;*/
+  display: block;
+  height: 20rpx;
+  margin-top: 24rpx;
+}
+
+.pas-input {
+  border: 0;
+  color: #fff;
+  font-size: 24rpx;
+  height: 68rpx;
+  left: -200rpx;
+  margin: 0;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  width: 720rpx;
+  z-index: 8;
+}

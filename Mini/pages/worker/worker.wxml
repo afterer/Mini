@@ -1,0 +1,14 @@
+<!--用户资料-->
+<view class="container">
+   <view class="userinfo">
+    <image class="userinfo-avatar" src="/images/name.png" background-size="cover" />
+    <text class="userinfo-nickname">{{openid}}</text>
+  </view>
+  <view class="list">
+     <view class="line"><text class="tleft">姓名</text><text class="tright">张三</text></view>
+     <view class="line"><text class="tleft">性别</text><text class="tright">男</text></view>
+     <view class="line"><text class="tleft">工号</text><text class="tright">1502011</text></view>
+     <view class="line"><text class="tleft">微信号</text><text class="tright">zhangsan</text></view>
+     <view class="line"><text class="tleft">学院</text><text class="tright">计算机学院</text></view>
+  </view>
+</view>

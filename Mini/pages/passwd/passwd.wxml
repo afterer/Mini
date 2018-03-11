@@ -1,0 +1,34 @@
+<view class="payPass" wx:if="{{pay}}">
+            <view class="pas-title">
+              <text>请输入密码</text>
+            </view>
+            <view class="pas-num">
+              <text>请假申请</text>
+            </view>
+            <view class="pas-box">
+              <view class="box-six">
+              <input class="pas-input" type="digit" maxlength="6" focus="false" bindinput="bindHideKeyboard"></input>
+              <view class="six">
+                <text class="i {{len==0?'active':''}}">
+                <text class="b" wx:if="{{len>0}}"></text>
+                </text>
+                <text class="i {{len==1?'active':''}}">
+                <text class="b" wx:if="{{len>1}}"></text>
+                </text>
+                <text class="i {{len==2?'active':''}}">
+                <text class="b" wx:if="{{len>2}}"></text>
+                </text>
+                <text class="i {{len==3?'active':''}}">
+                <text class="b" wx:if="{{len>3}}"></text>
+                </text>
+                <text class="i {{len==4?'active':''}}">
+                <text class="b" wx:if="{{len>4}}"></text>
+                </text>
+                <text class="i {{len==5?'active':''}}">
+                <text class="b" wx:if="{{len>5}}"></text>
+                </text>
+              </view>
+              </view>
+            </view>
+            </view>
+          <view class="paybg" wx:if="{{pay}}"></view>
